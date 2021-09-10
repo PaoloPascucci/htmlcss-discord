@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: bold, sans-serif;
+    font-weight: bold;
 }
 
 .clearfix::after {
@@ -15,7 +16,7 @@ body {
 }
 
 .Contenitore {
-    background-color: #3161e0;
+    background-color: #255ee9;
     text-align: center;
     position: relative;
     height: 55px;
@@ -33,7 +34,7 @@ body {
 }
 
 .Bottone {
-    border-radius: 40%;
+    border-radius: 35%/50%;
     width: 70px;
     padding: 10px;
     background-color: white;
@@ -47,4 +48,53 @@ body {
     position: absolute;
     top: 15%;
     right: 76%;
+}
+
+.sec-1 {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 480px;
+}
+
+.container {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1, p {
+    padding: 10px 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    word-wrap: break-word;
+    padding-bottom: 2rem;
+    line-height: 30px;
+}
+
+.button-1 {
+    margin-right: 2rem;
+    border-radius: 10%/50%;
+    padding: 12px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    color: #494c4f;
+}
+
+.button-2 {
+    border-radius: 5%/50%;
+    padding: 13px;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
