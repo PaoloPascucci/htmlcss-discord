@@ -4,8 +4,47 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.Contenitore {
+    background-color: #3161e0;
+    text-align: center;
+    position: relative;
+    height: 55px;
+}
+
+.link {
+    color: white;
+    padding-right: 2rem;
+    line-height: 55px;
+}
+
+.link, .Bottone {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Bottone {
+    border-radius: 40%;
+    width: 70px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    right: 23%;
+    color: #494c4f;
+}
+
+.logo {
+    position: absolute;
+    top: 15%;
+    right: 76%;
 }
