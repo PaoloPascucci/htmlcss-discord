@@ -50,13 +50,20 @@ body {
     right: 76%;
 }
 
+.corpo {
+    font-family: sans-serif;
+    position: relative;
+}
+
+/*sezione 1*/
+
 .sec-1 {
     background-image: url(./img/jumbo.png);
     background-size: cover;
     height: 470px;
 }
 
-.container {
+.container1 {
     color: white;
     position: absolute;
     top: 35%;
@@ -65,16 +72,16 @@ body {
     text-align: center;
 }
 
-h1, p {
+.title, .text {
     padding: 10px 0;
     width: 100%;
 }
 
-h1 {
+.title {
     font-size: 50px;
 }
 
-p {
+.text {
     word-wrap: break-word;
     padding-bottom: 2rem;
     line-height: 30px;
@@ -97,4 +104,102 @@ p {
     text-decoration: none;
     font-weight: bold;
     color: white;
+}
+
+/*sezione 2*/
+
+.sec-2 {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 395px;
+    width: 100%;
+}
+
+.container2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rana {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.titolo {
+    position: absolute;
+    top: -60px;
+    left: 289px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 285px;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.par {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 294px;
+    line-height: 25px;
+}
+
+/*sezione 3*/
+
+.sec-3 {
+    position: absolute;
+    top: 289%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #f6f6f6;
+    height: 440px;
+    width: 100%;
+}
+
+.container3 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chat {
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.titolo2 {
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    right: 120px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 285px;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.par2 {
+    position: absolute;
+    text-align: left;
+    top: 250px;
+    right: 110px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 294px;
+    line-height: 25px;
 }
