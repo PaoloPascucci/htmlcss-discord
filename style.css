@@ -203,3 +203,121 @@ body {
     width: 294px;
     line-height: 25px;
 }
+
+/*sezione 4*/
+
+.sec-4 {
+    position: absolute;
+    top: 377%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 420px;
+    width: 100%;
+}
+
+.container4 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chatvocale {
+    position: absolute;
+    top: -80px;
+    left: -250px;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+.titolo3 {
+    position: absolute;
+    top: -150px;
+    left: 289px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 285px;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.par3 {
+    position: absolute;
+    top: -10px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 294px;
+    line-height: 25px;
+}
+
+/* Sezione 5*/
+
+.sec-5 {
+    position: absolute;
+    top: 510%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f6f6f6;
+    height: 650px;
+    width: 100%;
+}
+
+.container5 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Webcam {
+    position: absolute;
+    top: -1px;
+    left: -10px;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+.titolo4 {
+    position: absolute;
+    top: -285px;
+    left: 0px;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.par4 {
+    position: absolute;
+    top: -215px;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    width: 815px;
+    line-height: 25px;
+}
+
+.stelle {
+    position: absolute;
+    top: 235px;
+    left: -15px;
+    transform: translate(-50%, -50%);
+    background-image: url(./img/stars.svg);
+    background-size: cover;
+    width: max-content;
+}
+
+.button-3 {
+    position: absolute;
+    top: 260px;
+    left: -100px;
+    border-radius: 10%/50%;
+    padding: 9px;
+    width: 160px;
+    background-color: #8ea1e1;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
