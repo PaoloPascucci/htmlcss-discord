@@ -52,7 +52,6 @@ body {
 
 .corpo {
     font-family: sans-serif;
-    position: relative;
 }
 
 /*sezione 1*/
@@ -64,17 +63,14 @@ body {
 }
 
 .container1 {
+    padding-top: 6rem;
+    float: left;
     color: white;
-    position: absolute;
-    top: 35%;
-    left: 53%;
-    transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .title, .text {
     padding: 10px 0;
-    width: 100%;
 }
 
 .title {
@@ -82,7 +78,10 @@ body {
 }
 
 .text {
+    padding-left: 22rem;
+    text-align: center;
     word-wrap: break-word;
+    width: 72%;
     padding-bottom: 2rem;
     line-height: 30px;
 }
@@ -108,46 +107,26 @@ body {
 
 /*sezione 2*/
 
-.sec-2 {
-    position: absolute;
-    top: 125%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 395px;
+.container2 {
+    padding: 8rem 0 5rem 10rem;
+    float: left;
     width: 100%;
 }
 
-.container2 {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .rana {
-    position: absolute;
-    top: 0;
-    left: -250px;
-    transform: translate(-50%, -50%);
+    float: right;
     width: 600px;
 }
 
 .titolo {
-    position: absolute;
-    top: -60px;
-    left: 289px;
-    transform: translate(-50%, -50%);
     word-wrap: break-word;
-    width: 285px;
+    width: 290px;
     line-height: 50px;
     font-size: 40px;
 }
 
 .par {
-    position: absolute;
-    top: 150px;
-    left: 300px;
-    transform: translate(-50%, -50%);
+    padding-top: 2rem;
     word-wrap: break-word;
     width: 294px;
     line-height: 25px;
@@ -155,164 +134,103 @@ body {
 
 /*sezione 3*/
 
-.sec-3 {
-    position: absolute;
-    top: 289%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    background-color: #f6f6f6;
-    height: 440px;
-    width: 100%;
-}
-
 .container3 {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: #f6f6f6;
+    padding: 5rem 0 5rem 10rem;
+    width: 100%;
+    float: left;
+    padding-top: 5rem;
 }
 
 .chat {
-    position: absolute;
-    top: 230px;
-    left: 180px;
-    transform: translate(-50%, -50%);
-    width: 600px;
+    float: right;
 }
 
 .titolo2 {
-    position: absolute;
-    text-align: left;
-    top: 100px;
-    right: 120px;
-    transform: translate(-50%, -50%);
+    padding: 2rem 0 0 2rem;
     word-wrap: break-word;
-    width: 285px;
+    width: 290px;
     line-height: 50px;
     font-size: 40px;
 }
 
 .par2 {
-    position: absolute;
-    text-align: left;
-    top: 250px;
-    right: 110px;
-    transform: translate(-50%, -50%);
+    padding: 2rem 0 0 2rem;
     word-wrap: break-word;
-    width: 294px;
+    width: 350px;
     line-height: 25px;
 }
 
 /*sezione 4*/
 
-.sec-4 {
-    position: absolute;
-    top: 377%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 420px;
-    width: 100%;
-}
-
 .container4 {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 5rem 0 5rem 10rem;
+    width: 100%;
+    float: left;
+    padding-top: 5rem;
 }
 
 .chatvocale {
-    position: absolute;
-    top: -80px;
-    left: -250px;
-    transform: translate(-50%, -50%);
-    width: 500px;
+    float: left;
 }
 
 .titolo3 {
-    position: absolute;
-    top: -150px;
-    left: 289px;
-    transform: translate(-50%, -50%);
+    padding: 2rem 0 0 2rem;
     word-wrap: break-word;
-    width: 285px;
+    width: 290px;
     line-height: 50px;
     font-size: 40px;
 }
 
 .par3 {
-    position: absolute;
-    top: -10px;
-    left: 300px;
-    transform: translate(-50%, -50%);
+    padding: 2rem 0 0 2rem;
     word-wrap: break-word;
-    width: 294px;
+    width: 340px;
     line-height: 25px;
 }
 
 /* Sezione 5*/
 
-.sec-5 {
-    position: absolute;
-    top: 510%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f6f6f6;
-    height: 650px;
-    width: 100%;
-}
-
 .container5 {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: #f6f6f6;
+    padding: 5rem 0 5rem 10rem;
+    width: 100%;
+    float: left;
+    padding-top: 5rem;
 }
 
 .Webcam {
-    position: absolute;
-    top: -1px;
-    left: -10px;
-    transform: translate(-50%, -50%);
-    width: 700px;
+    padding-left: 7rem;
 }
 
 .titolo4 {
-    position: absolute;
-    top: -285px;
-    left: 0px;
-    transform: translate(-50%, -50%);
-    width: max-content;
+    width: 85%;
     line-height: 50px;
     font-size: 40px;
     text-align: center;
 }
 
 .par4 {
-    position: absolute;
-    top: -215px;
-    left: 20px;
-    transform: translate(-50%, -50%);
     word-wrap: break-word;
-    width: 815px;
+    padding-top: 1rem;
+    padding-left: 6rem;
     line-height: 25px;
+    text-align: center;
+    width: 75%;
 }
 
 .stelle {
-    position: absolute;
-    top: 235px;
-    left: -15px;
-    transform: translate(-50%, -50%);
+    padding-left: 26rem;
+    padding-top: 1rem;
     background-image: url(./img/stars.svg);
-    background-size: cover;
-    width: max-content;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    padding-bottom: 2rem;
 }
 
 .button-3 {
-    position: absolute;
-    top: 260px;
-    left: -100px;
+    margin-left: 450px;
+    border-left: 5rem;
     border-radius: 10%/50%;
     padding: 9px;
     width: 160px;
@@ -320,4 +238,27 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: white;
+}
+
+/*aggiustamenti*/
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 53%;
+    padding-right: 5rem
+}
+
+.col-40, .col-60 {
+    float: left;
+}
+
+.debug .col-60 {
+    background-color: chocolate;
+}
+
+.debug .col-40 {
+    background-color: cyan;
 }
