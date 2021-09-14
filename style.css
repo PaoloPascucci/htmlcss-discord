@@ -112,7 +112,7 @@ body {
 }
 
 .container2 {
-    padding: 8rem 0 5rem 10rem;
+    padding: 5rem 5rem 5rem 15rem;
     float: left;
     width: 100%;
 }
@@ -144,7 +144,7 @@ body {
 
 .container3 {
     background-color: #f6f6f6;
-    padding: 5rem 0 5rem 10rem;
+    padding: 5rem 5rem 5rem 10rem;
     width: 100%;
     float: left;
     padding-top: 5rem;
@@ -176,7 +176,7 @@ body {
 }
 
 .container4 {
-    padding: 5rem 0 5rem 10rem;
+    padding: 5rem 5rem 5rem 10rem;
     width: 100%;
     float: left;
     padding-top: 5rem;
