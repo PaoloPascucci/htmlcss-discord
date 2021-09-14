@@ -346,3 +346,9 @@ li:not(.primo) {
 .row-2 {
     padding-top: 2rem;
 }
+
+.loghi {
+    color: white;
+    padding-top: 1rem;
+    ;
+}
