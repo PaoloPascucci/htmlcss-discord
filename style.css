@@ -59,12 +59,12 @@ body {
 .sec-1 {
     background-image: url(./img/jumbo.png);
     background-size: cover;
+    background-position: top;
     height: 470px;
 }
 
 .container1 {
     padding-top: 6rem;
-    float: left;
     color: white;
     text-align: center;
 }
@@ -144,29 +144,35 @@ body {
 
 .container3 {
     background-color: #f6f6f6;
-    padding: 5rem 5rem 5rem 10rem;
+    padding: 5rem 0rem 5rem 0rem;
     width: 100%;
-    float: left;
-    padding-top: 5rem;
+    text-align: center;
 }
 
 .chat {
+    float: left;
+}
+
+.testo2 {
     float: right;
+    display: table;
 }
 
 .titolo2 {
     padding: 2rem 0 0 2rem;
     word-wrap: break-word;
-    width: 290px;
+    width: 350px;
     line-height: 50px;
     font-size: 40px;
+    text-align: initial;
 }
 
 .par2 {
-    padding: 2rem 0 0 2rem;
     word-wrap: break-word;
-    width: 350px;
+    width: 330px;
     line-height: 25px;
+    text-align: initial;
+    padding: 1rem;
 }
 
 /*sezione 4*/
@@ -178,12 +184,11 @@ body {
 .container4 {
     padding: 5rem 5rem 5rem 10rem;
     width: 100%;
-    float: left;
     padding-top: 5rem;
 }
 
 .chatvocale {
-    float: left;
+    float: right;
 }
 
 .titolo3 {
@@ -205,18 +210,17 @@ body {
 
 .container5 {
     background-color: #f6f6f6;
-    padding: 5rem 0 5rem 10rem;
     width: 100%;
     float: left;
     padding-top: 5rem;
+    text-align: center;
 }
 
 .Webcam {
-    padding-left: 7rem;
+    margin-left: 5rem;
 }
 
 .titolo4 {
-    width: 85%;
     line-height: 50px;
     font-size: 40px;
     text-align: center;
@@ -225,23 +229,26 @@ body {
 .par4 {
     word-wrap: break-word;
     padding-top: 1rem;
-    padding-left: 6rem;
+    padding-left: 16rem;
     line-height: 25px;
     text-align: center;
-    width: 75%;
+    width: 80%;
+}
+
+.container6 {
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 .stelle {
-    padding-left: 26rem;
     padding-top: 1rem;
     background-image: url(./img/stars.svg);
     background-repeat: no-repeat;
-    background-position-x: 300px;
+    background-position: center;
     padding-bottom: 2rem;
 }
 
 .button-3 {
-    margin-left: 450px;
     border-left: 5rem;
     border-radius: 10%/50%;
     padding: 9px;
@@ -257,8 +264,7 @@ body {
 }
 
 .col-60 {
-    width: 53%;
-    padding-right: 5rem
+    width: 50%;
 }
 
 .col-40, .col-60 {
